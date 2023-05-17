@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Inter', sans-serif;
+}
+
+#head-menu {
+    height: 475px;
+    background-color: #303030;
+
+    color: #FFFFFF;
+}
+
+#head-menu h1 {
+    font-size: 60px;
+    font-weight: 600;
+
+    padding: 205px 355px 20px 60px;
+}
+
+#head-menu p {
+    font-size: 20px;
+    font-weight: 500;
+
+    padding: 0 355px 150px 60px;
+}
+
+#portfolio-highlights {
+    height: 230px;
+    padding: 95px 170px 65px;
+    background-color: #F9F9F9;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#portfolio-highlights span {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#portfolio-highlights p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#company-history {
+    margin: 80px 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#company-history span {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#company-history p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#contact-us {
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#contact-us h1 {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 85px 250px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+    margin-top: 50px;
+}
+
+input {
+    width: 505px;
+    height: 70px;
+    padding: 30px;
+
+    border: 0;
+    border-radius: 10px;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+button {
+    width: 285px;
+    height: 75px;   
+    padding: 20px 40px;
+    background-color: #C07212;
+
+    border: 0;
+    border-radius: 10px;
+
+    margin: 30px auto 90px;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:#e28e28;
+    transform: translateY(-15px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 25px 20px #c0721279;
+}
