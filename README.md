@@ -1,4 +1,4 @@
-# desafio-1-escola-dnc
+Desafio 1 - Resolução
 Desafio da Formação em Tecnologia da Escola DNC, visando aplicar os primeiros conceitos de desenvolvimento web.
 
 Link do site disponibilizado: https://desafio-1-gdo.netlify.app/
